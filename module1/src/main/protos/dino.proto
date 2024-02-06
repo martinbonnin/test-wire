@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package squareup.dinosaurs;
+
+message Dinosaur {
+  // Common name of this dinosaur, like "Stegosaurus".
+  string name = 1;
+
+  // URLs with images of this dinosaur.
+  repeated string picture_urls2 = 2;
+}

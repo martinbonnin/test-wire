@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "dino.proto";
+
+package squareup.dinosaurs;
+
+message Planet {
+  string name = 1;
+}
